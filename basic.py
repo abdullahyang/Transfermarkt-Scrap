@@ -208,7 +208,7 @@ for page in lpageList:
                 pvalue = pageSoup.find("div", {"class": "dataMarktwert"}).find("a").text.split()[0].strip("€")
             PlayerData.loc[pid] = [PlayerName, pclub, pleague, pbd, pbp, p_age, pht, pctz, ppos, pft, pagt, pjd, pce, plce, poft, pvalue, ppage]
             pcnt = pcnt + 1
-            PlayerData.to_csv("players1.csv")
-    LeagueData.to_csv("leagues1.csv")
+            PlayerData.to_csv("players.csv")
+    LeagueData.to_csv("leagues.csv")
 
 

@@ -127,6 +127,5 @@ for page in lpageList:
         ManagerData.loc[mcnt] = [ManagerName, mclub, mleague, mbd, mbp, mage, mctz, matac, mcl, mpf, mres[0], mres[1], mres[2], mres[3], mres[4], mres[5], mres[6], mpage]
         mcnt = mcnt+1
         ManagerData.to_csv("managers.csv")
-    LeagueData.to_csv("leagues.csv")
 
 
